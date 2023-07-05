@@ -1,4 +1,4 @@
-package miniMaxSum;
+package hackerrank.miniMaxSum;
 
 import java.io.*;
 import java.math.*;
@@ -10,7 +10,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     /*
-     * Complete the 'miniMaxSum' function below.
+     * Complete the 'hackerRank.miniMaxSum' function below.
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */

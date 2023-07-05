@@ -1,11 +1,11 @@
-package plusMinus;
+package hackerrank.plusMinus;
 
 import java.util.List;
 
 class Result {
 
     /*
-     * Complete the 'plusMinus' function below.
+     * Complete the 'hackerRank.plusMinus' function below.
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */

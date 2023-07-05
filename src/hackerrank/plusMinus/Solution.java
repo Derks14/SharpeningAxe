@@ -1,4 +1,4 @@
-package plusMinus;
+package hackerrank.plusMinus;
 
 import java.io.*;
 import java.util.*;

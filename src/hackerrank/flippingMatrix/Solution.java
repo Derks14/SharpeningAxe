@@ -22,8 +22,21 @@ class Result {
      */
 
     public static int flippingMatrix(List<List<Integer>> matrix) {
+        //  find the max among its mirror values
         // Write your code here
-        return 0;
+        int size = matrix.size();
+        int sum = 0;
+
+        for (int i = 0; i < size/2; i++) {
+            for (int j = 0; j < size/2; j++) {
+                int topLeft = matrix.get(i).get(j);
+                int topRight = matrix.get(i).get(size - j - 1);
+                int bottomLeft = matrix.get(size - i - 1).get(j);
+                int bottomRight = matrix.get(size - i - 1).get(size - j - 1);
+                sum += Math.max(Math.max(topLeft, topRight), Math.max(bottomLeft, bottomRight));
+            }
+        }
+        return sum;
     }
 
 }
